@@ -53,4 +53,3 @@ To run the game locally on your machine, follow these steps:
    ```bash
    git clone https://github.com/your-username/tic-tac-toe-game.git
 
-)
