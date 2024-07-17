@@ -46,10 +46,13 @@ Welcome to the Tic-Tac-Toe game repository! This project implements a simple int
 
 To run the game locally on your machine, follow these steps:
 
-  ![Tic-Tac-Toe Preview](![image](https://github.com/user-attachments/assets/517bb362-cf67-48fe-9956-f833ca05abb2)
+ 
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe-game.git
+   git clone https://github.com/Atlasentinel/tic-tac-toe-game.git
+   ```
+
+    ![Tic-Tac-Toe Preview](![image](https://github.com/user-attachments/assets/517bb362-cf67-48fe-9956-f833ca05abb2)
 
