@@ -54,5 +54,5 @@ To run the game locally on your machine, follow these steps:
    git clone https://github.com/Atlasentinel/tic-tac-toe-game.git
    ```
 
-    ![Tic-Tac-Toe Preview](![image](https://github.com/user-attachments/assets/517bb362-cf67-48fe-9956-f833ca05abb2)
+   ![image](https://github.com/user-attachments/assets/517bb362-cf67-48fe-9956-f833ca05abb2)
 
