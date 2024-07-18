@@ -92,7 +92,7 @@ export default function Game() {
             newGrid[row][col] = currentPlayer;
             audio.play();
             setGrid(newGrid);
-            
+
 
             // Vérifier si le joueur actuel a gagné
             if (checkWinner(newGrid, currentPlayer)) {
@@ -115,7 +115,6 @@ export default function Game() {
     return (
         <div className="GameMenu">
             <h1>TIC-TAC-TOE</h1>
-
             <div className="Menu">
                 <div className="pseudo">
                     <span>Joueur ❤️: {playerOne}</span>
@@ -144,18 +143,15 @@ export default function Game() {
                 </div>
                 <div className="settings">
                     <span className="span-settings">
-                    {!gameMessage && ( <span>
-                        C'est au tour de : {currentPlayer} {currentPlayer === '❤️' ? playerOne : playerTwo}
-                      
+                        {!gameMessage && (<span>
+                            C'est au tour de : {currentPlayer} {currentPlayer === '❤️' ? playerOne : playerTwo}
+                        </span>
+
+                        )}
+                        {gameMessage && <p>{gameMessage}</p>}
+                        <a class="infos" onClick={handleInfosMessage}><Icon /></a>
+                        <a class="reload" href="./">REJOUER</a>
                     </span>
-                         
-                    )}
-                       {gameMessage && <p>{gameMessage}</p>}
-                       <a class="infos" onClick={handleInfosMessage}><Icon /></a>
-                       <a class="reload" href="./">REJOUER</a>
-                    </span>
-                    
-                     
                 </div>
             </div>
         </div>
