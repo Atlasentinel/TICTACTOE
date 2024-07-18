@@ -16,6 +16,10 @@
     height: 450px;
 }
 
+.Menu{
+    position: relative;
+}
+
 .settings{
     background-color: rgb(24, 24, 24);
     box-shadow: 6px 6px 2px 1px rgb(33, 29, 29);
@@ -25,10 +29,11 @@
     display: flex;
     position: absolute;
     bottom: 4rem;
+    bottom: 35px;
     align-items: top;
     justify-content: center;
     width: 400px;
-    margin-left: 3%;
+    margin-left: 10%;
     font-style: oblique;
     height: 75px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
